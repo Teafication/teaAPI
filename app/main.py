@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api.v1.endpoints.civco.api_router import router as api_router
+from app.api.v1.endpoints.civco.civco_api_router import router as api_router
 
 app = FastAPI(title="FastAPI Teafication")
 
